@@ -1,2 +1,2 @@
-# my-group-project
-repo över ett projekt
+# Grupp 4 - grupprojekt
+Vårt repo för grupprojektet
