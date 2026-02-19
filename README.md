@@ -1,9 +1,9 @@
 📄 Kontrakt för versionshantering
 
-Projekt: ___________________________
-Grupp: ___________________________
-Datum: ___________________________
-⸻
+Projekt: Web shop
+Grupp: 4
+Datum: 2026-02-19
+
 1. Syfte
 Syftet med detta kontrakt är att säkerställa:
 • En gemensam och konsekvent struktur för versionshantering
@@ -11,16 +11,16 @@ Syftet med detta kontrakt är att säkerställa:
 • Tydlig spårbarhet av förändringar
 • Professionell arbetsprocess motsvarande branschstandard
 Alla gruppmedlemmar förbinder sig att följa detta dokument.
-⸻
+
 2. Verktyg
-• Versionshanteringssystem: __________________ (ex. Git)
-• Repository-plattform: __________________ (ex. GitHub/GitLab/Azure DevOps)
-• Kommunikationskanal vid konflikter: __________________
-⸻
+• Versionshanteringssystem: Git
+• Repository-plattform: GitHub
+• Kommunikationskanal vid konflikter: Teams 
+
 3. Branch-struktur
 Vi använder följande branch-struktur:
 • main – Produktionsklar kod
-• develop – Integrationsbranch
+• dev – Integrationsbranch
 • feature/* – Nya funktioner
 • bugfix/* – Buggfixar
 • hotfix/* – Akuta fixar mot produktion
@@ -28,8 +28,8 @@ Regler:
 • Direkt push till main är inte tillåten
 • All kod ska gå via Pull Request
 • main ska alltid vara stabil och körbar
-• develop ska alltid vara byggbar
-⸻
+• dev ska alltid vara byggbar
+
 4. Namngivningsstandard
 Branch-namn
 Format:
@@ -50,7 +50,7 @@ Commits ska:
 • Vara små och fokuserade
 • Ha tydliga och beskrivande meddelanden
 • Inte innehålla irrelevant kod
-⸻
+
 5. Pull Requests
 Alla ändringar ska:
 • Skapas via Pull Request
@@ -61,7 +61,7 @@ Alla ändringar ska:
 • Granskas av minst en annan gruppmedlem
 • Vara godkända innan merge
 Ingen får godkänna sin egen Pull Request.
-⸻
+
 6. Kodgranskning (Code Review)
 Vid granskning ska följande kontrolleras:
 • Kodens läsbarhet
@@ -74,31 +74,36 @@ Feedback ska vara:
 • Saklig
 • Respektfull
 • Lösningsorienterad
-⸻
+
 7. Hantering av konflikter
 Vid merge-konflikt:
 1. Den som mergar ansvarar för att lösa konflikten.
 2. Osäkerhet diskuteras i gruppen innan lösning.
 3. Ingen “force push” utan gruppens godkännande.
-⸻
+
 8. Tests och byggbar kod
 • Kod får inte mergas om projektet inte bygger.
 • Tester ska köras innan push.
 • Nya funktioner ska, om möjligt, inkludera tester.
-⸻
+
 9. Ansvar
 Varje medlem ansvarar för att:
 • Hålla sin branch uppdaterad
 • Pusha regelbundet
 • Kommunicera om större förändringar
 • Inte arbeta direkt i main
-⸻
+
 10. Brott mot överenskommelsen
 Om kontraktet inte följs:
 1. Gruppen diskuterar situationen.
 2. Åtgärder beslutas gemensamt.
 3. Upprepade överträdelser dokumenteras.
-⸻
+
 11. Signaturer
 Genom att skriva under godkänner vi att följa detta kontrakt.
 Namn Signatur Datum
+
+Jessica Fredin 2026-02-19
+Yvette Baker 2026-02-19
+Alexander Larsson 2026-02-19
+Manu St. Hill 2026-02-19
